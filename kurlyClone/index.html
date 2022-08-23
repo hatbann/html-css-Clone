@@ -26,54 +26,80 @@
       지금 가입하고 인기상품&nbsp <strong> 100원</strong>에 받아가세요!
     </div>
     <header>
-      <div>
-        <div class="header_top">
-          <div>
-            <a href="">회원가입</a>|<a href="">로그인</a>|<a href=""
-              >고객센터</a
-            >
-          </div>
-          <div class="header_middle">
-            <img
-              src="https://blog.kakaocdn.net/dn/bjjrHJ/btqBPXNC9tF/Sibyn4CJ4fWFTMaqvUYt01/img.jpg"
-              style="width: 100px"
-            />
-            <a style="margin-left: 20px">마켓컬리</a
-            ><span class="header_middle_beauty">|<a href="">뷰티컬리</a></span>
-            <div class="header_middle_search">
-              <form>
-                <input type="text" placeholder="검색어를 입력해주세요" />
-              </form>
-              <button><i class="fa-solid fa-magnifying-glass"></i></button>
-            </div>
-            <img
-              src="./assets/location.png"
-              aria-label="배송지"
-              class="header_middle_icon"
-              style="margin-left: 200px; margin-top: -3px"
-            />
-            <button aria-label="찜하기">
-              <img src="./assets/heart.png" class="header_middle_icon" />
-            </button>
-            <button aria-label="장바구니">
-              <img
-                src="./assets/shopping-cart.png"
-                class="header_middle_icon"
-              />
-            </button>
-          </div>
+      <div class="header_top">
+        <div class="header_top_a">
+          <a href="">회원가입</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">로그인</a
+          >&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">고객센터</a>
         </div>
-        <div class="header_middle"></div>
-        <div class="header_bottom">
-          <button>카테고리</button>
+        <div class="header_top_nav">
+          <img
+            src="https://blog.kakaocdn.net/dn/bjjrHJ/btqBPXNC9tF/Sibyn4CJ4fWFTMaqvUYt01/img.jpg"
+            style="width: 100px"
+          />
+          <a style="margin-left: 20px">마켓컬리</a
+          ><span class="header_top_beauty">|<a href="">뷰티컬리</a></span>
+          <div class="header_top_search">
+            <form>
+              <input type="text" placeholder="검색어를 입력해주세요" />
+            </form>
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+          <img
+            src="./assets/location.png"
+            aria-label="배송지"
+            class="header_top_icon"
+            style="margin-left: 200px; margin-top: -3px"
+          />
+          <button aria-label="찜하기">
+            <img src="./assets/heart.png" class="header_top_icon" />
+          </button>
+          <button aria-label="장바구니">
+            <img src="./assets/shopping-cart.png" class="header_top_icon" />
+          </button>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <button><i class="fa-solid fa-bars"></i>카테고리</button>
+        <div class="header_bottom_main">
           <ul class="header_bottom_categories">
             <li>신상품</li>
             <li>베스트</li>
             <li>알뜰쇼핑</li>
             <li>특가/혜택</li>
           </ul>
+          <button class="header_bottom_btn">
+            샛별・낮<span style="color: #474747"> 배송안내</span>
+          </button>
         </div>
       </div>
     </header>
+    <main>
+      <div class="advertisement">
+        <img src="./assets/advertise.png" style="width: 100%" />
+        <div class="btns">
+          <button><i class="fa-solid fa-angle-left"></i></button>
+          <button><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </div>
+      <article>
+        <h2>이 상품 어때요?</h2>
+        <div class="products">
+          <div class="product">
+            <img
+              src="https://img-cf.kurly.com/cdn-cgi/image/width=400,format=auto/shop/data/goods/1629262200955l0.jpg"
+              style="width: 250px"
+            />
+            <div class="product_info">
+              <span>[크라운] 마이쮸 데스크팩 (포도+사과)</span>
+              <span><strong>7%</strong>5,980 원</span>
+              <span>6,480 원</span>
+            </div>
+            <button>
+              <img src="./assets/shopping-cart.png" class="header_top_icon" />
+            </button>
+          </div>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
