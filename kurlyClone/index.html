@@ -15,6 +15,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./todaysRecommands.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./deals.css" />
+    <link rel="stylesheet" href="./banner.css" />
     <script
       src="https://kit.fontawesome.com/bfc07fa97f.js"
       crossorigin="anonymous"
@@ -82,24 +86,107 @@
         </div>
       </div>
       <article>
-        <h2>이 상품 어때요?</h2>
-        <div class="products">
-          <div class="product">
-            <img
-              src="https://img-cf.kurly.com/cdn-cgi/image/width=400,format=auto/shop/data/goods/1629262200955l0.jpg"
-              style="width: 250px"
-            />
-            <div class="product_info">
-              <span>[크라운] 마이쮸 데스크팩 (포도+사과)</span>
-              <span><strong>7%</strong>5,980 원</span>
-              <span>6,480 원</span>
+        <div class="todaysRecommands">
+          <h2>이 상품 어때요?</h2>
+          <div class="products">
+            <div class="btns">
+              <button><i class="fa-solid fa-angle-left"></i></button>
+              <button><i class="fa-solid fa-angle-right"></i></button>
             </div>
-            <button>
-              <img src="./assets/shopping-cart.png" class="header_top_icon" />
-            </button>
+            <div class="product">
+              <img
+                src="https://img-cf.kurly.com/cdn-cgi/image/width=400,format=auto/shop/data/goods/1629262200955l0.jpg"
+                style="width: 250px"
+              />
+              <button>
+                <img src="./assets/shopping-cart.png" class="product__icon" />
+              </button>
+              <div class="product_info">
+                <span>[크라운] 마이쮸 데스크팩 (포도+사과)</span>
+                <div class="product_info_price">
+                  <strong>7%&nbsp;</strong>5,980 원
+                  <div>6,480 원</div>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="./assets/product2.png" style="width: 250px" />
+              <button>
+                <img src="./assets/shopping-cart.png" class="product__icon" />
+              </button>
+              <div class="product_info">
+                <span>[곰표 X 콜린스그린] 밀눈 옥수수 스프</span>
+                <div class="product_info_price">2,900원</div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="./assets/product3.png" style="width: 250px" />
+              <button>
+                <img src="./assets/shopping-cart.png" class="product__icon" />
+              </button>
+              <div class="product_info">
+                <span>[허쉬] 초콜릿칩 쿠키 480g</span>
+                <div class="product_info_price">12,800원</div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="./assets/product4.png" style="width: 250px" />
+              <button>
+                <img src="./assets/shopping-cart.png" class="product__icon" />
+              </button>
+              <div class="product_info">
+                <span>[상하농원] 수제 보코치니 치즈</span>
+                <div class="product_info_price">7,500원</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner">
+          <div>
+            <a href=""
+              ><img
+                src="https://product-image.kurly.com/banner/random-band/pc/img/e89ea9e1-3c35-47dc-aa19-35fa92ed040c.jpg"
+                width="1050px;"
+            /></a>
+          </div>
+        </div>
+        <div class="deals">
+          <div class="deals_content">
+            <div>
+              <h3>추석특가</h3>
+              <span>24시간 한정 특가</span>
+              <div>TIME OUT</div>
+              <div
+                style="
+                  color: #c2c2c2;
+                  font-size: 13px;
+                  margin-top: 40px;
+                  margin-top: 25px;
+                "
+              >
+                망설이면 늦어요!
+              </div>
+            </div>
+            <div class="deals_img">
+              <img
+                src="https://img-cf.kurly.com/shop/data/goods/164508300984z0.jpg"
+                alt="상품 이미지"
+              />
+              <div style="font-size: 13px">매일매일 색다르게 즐기는 견과</div>
+              <h3 class="deals_img_title">
+                HBAF 매일 색다른 먼투썬 하루견과 4주 (20gx28봉)
+              </h3>
+              <span
+                ><strong style="color: tomato">30%</strong>&nbsp16,030원<span
+                  class="deals_img_before"
+                  >22,900 원</span
+                ></span
+              >
+            </div>
           </div>
         </div>
       </article>
     </main>
+    <footer></footer>
   </body>
 </html>

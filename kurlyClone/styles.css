@@ -9,6 +9,11 @@
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+footer {
+  height: 100px;
+  margin-bottom: 50px;
+}
+
 button {
   background-color: white;
   border: none;
@@ -52,104 +57,11 @@ header {
   font-size: 15px;
   background-color: var(--maincolor);
   color: white;
-  width: 100vw;
+  width: 100%;
   height: 42px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.header_top {
-  position: relative;
-  margin: 10px;
-}
-
-.header_top_a {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  font-size: 13px;
-  margin-bottom: 10px;
-}
-
-.header_top_nav {
-  padding-top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-.header_top_beauty {
-  margin-left: 10px;
-  color: rgb(185, 185, 185);
-}
-
-.header_top_beauty > a {
-  margin-left: 10px;
-  color: rgb(185, 185, 185);
-}
-
-.header_top_icon {
-  width: 30px;
-  height: 30px;
-  color: rgb(49, 49, 49);
-}
-
-img.header_top_icon {
-  margin-left: 25px;
-}
-
-.header_top_search {
-  display: flex;
-  margin-left: 70px;
-  border: 1px solid var(--maincolor);
-  border-radius: 8px;
-  padding: 10px;
-  width: 350px;
-  justify-content: space-between;
-}
-
-.fa-solid.fa-magnifying-glass {
-  color: #5f0080;
-  font-size: 15px;
-}
-
-.header_bottom {
-  display: flex;
-  width: 1050px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header_bottom > button {
-  font-size: 17px;
-  font-weight: 500;
-}
-
-.header_bottom_main {
-  display: flex;
-  margin-top: 10px;
-  justify-content: space-between;
-}
-
-.fa-solid.fa-bars {
-  margin-right: 5px;
-}
-
-.header_bottom_btn {
-  color: #5f0080;
-  border: 1px solid rgb(214, 214, 214);
-  padding: 4px 20px;
-  border-radius: 20px;
-  text-align: center;
-}
-
-.header_bottom_categories {
-  display: flex;
-  width: 500px;
-  justify-content: space-between;
-  margin-right: 130px;
 }
 
 .advertisement {
@@ -177,16 +89,8 @@ img.header_top_icon {
   font-size: 20px;
 }
 
-.product {
-  position: relative;
-  width: auto;
-}
-
-.product_info {
-}
-
-.product > button {
-  position: absolute;
-  bottom: 50px;
-  right: 20px;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
