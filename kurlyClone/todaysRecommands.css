@@ -16,19 +16,24 @@
 .products {
   display: flex;
   position: relative;
-  padding-left: 30px;
+  margin-left: 20px;
 }
 
 .products > .btns {
   z-index: 9999;
-  width: 147%;
-  left: -270px;
+  width: 152%;
+  left: -269px;
   top: 140px;
 }
 
 .product {
   position: relative;
   width: 265px;
+  margin-right: 10px;
+}
+
+.product > img {
+  height: 320px;
 }
 
 .product_info {
@@ -37,12 +42,17 @@
 
 .product > button {
   position: absolute;
-  bottom: 90px;
-  right: 30px;
+  bottom: 105px;
+  right: 11px;
   background-color: rgba(242, 203, 255, 0.6);
   border-radius: 50%;
-  padding: 10px;
+  padding: 12px;
   padding-top: 15px;
+}
+
+.recommandBtn {
+  position: absolute;
+  bottom: 119px !important;
 }
 
 .product__icon {
