@@ -1,9 +1,11 @@
 .CustomerCenter {
   margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .CustomerCenter > div {
-  width: 1050px;
   display: flex;
 }
 
@@ -53,12 +55,29 @@
 .CustomerRight {
   display: flex;
   margin-left: 70px;
+  flex-direction: column;
 }
 .CustomerRight_Top {
   font-size: 14px;
+  margin-bottom: 30px;
 }
 
 .CustomerRight_Top > li {
   float: left;
   padding-right: 15px;
+}
+
+.CustomerRight_Bottom {
+  font-size: 12px;
+  color: rgb(163, 163, 163);
+}
+
+.CustomerRight_Bottom_info {
+  margin-top: 5px;
+}
+
+.CustomerRight_Bottom_info strong,
+a {
+  color: var(--maincolor);
+  font-weight: 500;
 }
