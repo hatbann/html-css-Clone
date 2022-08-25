@@ -2,10 +2,15 @@
   margin-left: 412px;
   margin-right: 412px;
   margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todaysRecommands > div {
   width: 1050px;
 }
 
-.todaysRecommands > h2 {
+.todaysRecommands > div > h2 {
   display: flexbox;
   font-size: 27px;
   font-weight: 500;

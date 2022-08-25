@@ -1,0 +1,64 @@
+.CustomerCenter {
+  margin-top: 130px;
+}
+
+.CustomerCenter > div {
+  width: 1050px;
+  display: flex;
+}
+
+.CustomerLeft > h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.center365 {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.center365 > h2 {
+  font-size: 27.5px;
+}
+
+.centerInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.centerInfoTop {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.centerInfoBottom {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(141, 141, 141);
+}
+
+.CustomerBtn {
+  display: flex;
+  margin-top: 20px;
+}
+
+.CustomerBtn > button {
+  width: 140px;
+  border: 1px solid rgb(231, 231, 231);
+  padding: 7px 20px;
+  border-radius: 5px;
+}
+
+.CustomerRight {
+  display: flex;
+  margin-left: 70px;
+}
+.CustomerRight_Top {
+  font-size: 14px;
+}
+
+.CustomerRight_Top > li {
+  float: left;
+  padding-right: 15px;
+}
